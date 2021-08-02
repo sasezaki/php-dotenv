@@ -22,8 +22,13 @@
         "satooshi/php-coveralls": "1.*"
     },
     "autoload": {
-        "psr-0": {
-            "josegonzalez\\Dotenv": ["src", "tests"]
+        "psr-4": {
+            "josegonzalez\\Dotenv\\": "src/josegonzalez/Dotenv/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "josegonzalez\\Dotenv\\": "tests/josegonzalez/Dotenv/"
         }
     }
 }
